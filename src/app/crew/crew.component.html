@@ -6,7 +6,11 @@
 </div>
 <hr>
 <div class="displayBox">
-    <h3>Crew <!-- Add a span tag here to display 'Full' when the crew reaches 3. --></h3>
+    <h3>crew
+        <span>
+    <!-- Add a span tag here to display 'Full' when the crew reaches 3. -->
+        </span>
+    </h3>
     <ol>
         <li *ngFor="let astronaut of crew">{{astronaut.name}}</li>
     </ol>
